@@ -25,10 +25,6 @@
     padding: 0px;
 }
 
-body{
-    margin: 0px;
-}
-
 .head{
     background-color: black;
     color: white;
@@ -59,6 +55,8 @@ h1{
 h2{
     font-family: 'Integral Cf',sans-serif;
     font-size: 48px;
+    text-align: center;
+    margin: 30px;
 }
 
 h3{
@@ -190,6 +188,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 20px;
 }
 
 .arrivals h2{
@@ -244,4 +243,9 @@ main{
     background-color: aqua;
     border-radius: 16px;
     align-items: center;
+}
+
+.browser-list{
+    grid-column: 2;
+    grid-row: 2;
 }
